@@ -1,0 +1,165 @@
+[INFO] [2018-09-12 13:14:36][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-09-12 13:14:36][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Wed Sep 12 13:14:36 UTC 2018]; root of context hierarchy
+[INFO] [2018-09-12 13:14:36][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-09-12 13:14:37][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-09-12 13:14:37][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-09-12 13:14:37][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1478 ms
+[INFO] [2018-09-12 13:14:37][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2018-09-12 13:14:37][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Sep 12 13:14:37 UTC 2018]; parent: Root WebApplicationContext
+[INFO] [2018-09-12 13:14:37][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-09-12 13:14:37][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/up] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/up.*] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/up/] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/addStu] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/addStu.*] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/addStu/] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getAllStu] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getAllStu.*] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getAllStu/] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getStudentByName] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getStudentByName.*] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getStudentByName/] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/delStu] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/delStu.*] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/delStu/] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/updateStu] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/updateStu.*] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/updateStu/] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/selectStudentByID] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/selectStudentByID.*] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/selectStudentByID/] onto handler 'studentController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser.*] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser/] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/table] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/table.*] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/table/] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/index] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/index.*] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/index/] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/updateUserPwd] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/updateUserPwd.*] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/updateUserPwd/] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/getUserByName] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/getUserByName.*] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/getUserByName/] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/login2] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/login2.*] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/login2/] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/register] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/register.*] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/register/] onto handler 'userController'
+[INFO] [2018-09-12 13:14:38][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 489 ms
+[INFO] [2018-09-12 13:39:04][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Sep 12 13:14:37 UTC 2018]; parent: Root WebApplicationContext
+[INFO] [2018-09-12 13:39:04][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Wed Sep 12 13:14:36 UTC 2018]; root of context hierarchy
+[INFO] [2018-09-12 13:39:28][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-09-12 13:39:28][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Wed Sep 12 13:39:28 UTC 2018]; root of context hierarchy
+[INFO] [2018-09-12 13:39:28][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-09-12 13:39:28][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-09-12 13:39:28][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-09-12 13:39:29][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 957 ms
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2018-09-12 13:39:29][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Sep 12 13:39:29 UTC 2018]; parent: Root WebApplicationContext
+[INFO] [2018-09-12 13:39:29][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-09-12 13:39:29][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/up] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/up.*] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/up/] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/addStu] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/addStu.*] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/addStu/] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/delStu] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/delStu.*] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/delStu/] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/updateStu] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/updateStu.*] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/updateStu/] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/selectStudentByID] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/selectStudentByID.*] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/selectStudentByID/] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getAllStu] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getAllStu.*] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getAllStu/] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getStudentByName] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getStudentByName.*] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getStudentByName/] onto handler 'studentController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser.*] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser/] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/table] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/table.*] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/table/] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/index] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/index.*] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/index/] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/updateUserPwd] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/updateUserPwd.*] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/updateUserPwd/] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/getUserByName] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/getUserByName.*] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/getUserByName/] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/login2] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/login2.*] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/login2/] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/register] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/register.*] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/register/] onto handler 'userController'
+[INFO] [2018-09-12 13:39:29][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 393 ms
+[INFO] [2018-09-12 15:39:05][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Sep 12 13:39:29 UTC 2018]; parent: Root WebApplicationContext
+[INFO] [2018-09-12 15:39:05][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Wed Sep 12 13:39:28 UTC 2018]; root of context hierarchy
+[INFO] [2018-09-12 15:39:25][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-09-12 15:39:25][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Wed Sep 12 15:39:25 UTC 2018]; root of context hierarchy
+[INFO] [2018-09-12 15:39:25][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-09-12 15:39:26][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-09-12 15:39:26][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-09-12 15:39:26][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1334 ms
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2018-09-12 15:39:27][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Sep 12 15:39:27 UTC 2018]; parent: Root WebApplicationContext
+[INFO] [2018-09-12 15:39:27][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-09-12 15:39:27][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/up] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/up.*] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/up/] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/addStu] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/addStu.*] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/addStu/] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/delStu] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/delStu.*] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/delStu/] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/updateStu] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/updateStu.*] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/updateStu/] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/selectStudentByID] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/selectStudentByID.*] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/selectStudentByID/] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getAllStu] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getAllStu.*] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getAllStu/] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getStudentByName] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getStudentByName.*] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/student/getStudentByName/] onto handler 'studentController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser.*] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser/] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/table] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/table.*] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/table/] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/index] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/index.*] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/index/] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/updateUserPwd] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/updateUserPwd.*] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/updateUserPwd/] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/getUserByName] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/getUserByName.*] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/getUserByName/] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/login2] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/login2.*] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/login2/] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/register] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/register.*] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/register/] onto handler 'userController'
+[INFO] [2018-09-12 15:39:27][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 475 ms
+[INFO] [2018-09-12 15:45:32][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Sep 12 15:39:27 UTC 2018]; parent: Root WebApplicationContext
+[INFO] [2018-09-12 15:45:32][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Wed Sep 12 15:39:25 UTC 2018]; root of context hierarchy

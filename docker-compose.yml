@@ -1,0 +1,116 @@
+version: "3"
+services:
+  haproxy:
+    image: haproxy
+    volumes:
+        - ./haproxy:/usr/local/etc/haproxy
+    links:
+        - nginx
+        - tomcat
+        - tomcat2
+    ports:
+        - "8123:80"
+    expose:
+        - 80
+  mysql:
+    image: mysql:5.7
+    restart: always                       
+    volumes:
+      - ./data/mysql/dbdata/:/var/lib/mysql/                    
+      #- ./mysql/conf/mysqld.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf
+    ports:
+      - "6033:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+  nginx:
+    restart: always
+    image: nginx
+    ports:
+      - 88:80
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/conf.d/:/usr/local/nginx/conf.d/:ro
+      - ./data/nginx/logs/:/etc/nginx/logs/
+      - ./nginx/data/:/var/share/nginx/html/
+    links:
+      - tomcat:t1                        
+  some-mongo:
+    image: "mongo:3"
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - /etc/timezone:/etc/timezone
+      - ./data/graylog/data/mongo:/data/db
+  some-elasticsearch:
+    image: "elasticsearch:2"
+    command: "elasticsearch -Des.cluster.name='graylog'"
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - /etc/timezone:/etc/timezone
+      - ./data/graylog/data/elasticsearch:/usr/share/elasticsearch/data
+  graylog:
+    image: graylog2/server:latest
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - /etc/timezone:/etc/timezone
+      - ./data/graylog/data/journal:/usr/share/graylog/data/journal
+      - ./graylog/config:/usr/share/graylog/data/config
+    environment:
+      GRAYLOG_PASSWORD_SECRET: somepasswordpepper
+      GRAYLOG_ROOT_PASSWORD_SHA2: 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
+      GRAYLOG_WEB_ENDPOINT_URI: http://192.168.2.49:9000/api
+    links:
+      - some-mongo:mongo
+      - some-elasticsearch:elasticsearch
+    ports:
+      - "9000:9000"
+      - "12201:12201/udp"
+      - "1514:1514/udp"
+  tomcat:
+    restart: always
+    image: tomcat
+    ports:
+      - 8080:8080
+      - 8009:8009
+    depends_on:
+     - graylog
+    volumes:
+      - ./tomcat/conf/server.xml:/usr/local/tomcat/conf/server.xml
+      - ./tomcat/conf/context.xml:/usr/local/tomcat/webapps/manager/META-INF/context.xml
+      - ./tomcat/conf/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
+      - ./tomcat/webapps/web:/usr/local/tomcat/webapps/web
+      - ./tomcat/logs/:/usr/local/tomcat/logs/
+    links:
+      - mysql:m1
+      - graylog
+    logging:
+      driver: "gelf"
+      options:
+        gelf-address: "udp://192.168.2.49:12201"
+        tag: front-tomcat                       
+  tomcat2:
+    restart: always
+    image: tomcat
+    ports:
+      - 8081:8080
+      - 8010:8009
+    depends_on:
+     - graylog
+    volumes:
+      - ./tomcat/conf/server.xml:/usr/local/tomcat/conf/server.xml
+      - ./tomcat/conf/context.xml:/usr/local/tomcat/webapps/manager/META-INF/context.xml
+      - ./tomcat/conf/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
+      - ./tomcat/webapps/web:/usr/local/tomcat/webapps/web
+      - ./tomcat2/logs/:/usr/local/tomcat/logs/
+    links:
+      - mysql:m1
+      - graylog
+    logging:
+      driver: "gelf"
+      options:
+        gelf-address: "udp://192.168.2.49:12201"
+        tag: front-tomcat2                                                                   
+  redis:
+    restart: always
+    image: redis
+    ports:
+     - 6379:6379     

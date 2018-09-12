@@ -1,0 +1,26 @@
+2018/09/12 02:26:19 [emerg] 1#1: host not found in upstream "tomcat01:8080" in /usr/local/nginx/conf.d/test.conf:2
+2018/09/12 02:26:20 [emerg] 1#1: host not found in upstream "tomcat01:8080" in /usr/local/nginx/conf.d/test.conf:2
+2018/09/12 02:26:20 [emerg] 1#1: host not found in upstream "tomcat01:8080" in /usr/local/nginx/conf.d/test.conf:2
+2018/09/12 02:26:21 [emerg] 1#1: host not found in upstream "tomcat01:8080" in /usr/local/nginx/conf.d/test.conf:2
+2018/09/12 02:26:23 [emerg] 1#1: host not found in upstream "tomcat01:8080" in /usr/local/nginx/conf.d/test.conf:2
+2018/09/12 02:26:25 [emerg] 1#1: host not found in upstream "tomcat01:8080" in /usr/local/nginx/conf.d/test.conf:2
+2018/09/12 02:27:34 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:27:34 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:27:35 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:27:36 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:27:37 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:27:39 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:28:37 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:28:37 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:28:38 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:28:39 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:28:40 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:28:42 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:28:54 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:28:54 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:28:55 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:28:56 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:28:57 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:28:59 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:29:02 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
+2018/09/12 02:29:09 [emerg] 1#1: open() "/etc/nginx/logs/test_access.log" failed (2: No such file or directory)
