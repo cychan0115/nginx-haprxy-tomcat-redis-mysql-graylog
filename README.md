@@ -11,3 +11,21 @@
     Mysql 数据库
     Graylog 日志
  
+### 配置事项
+    在全局配置文件里加入graylog的API地址
+    全局配置文件是.env
+
+### 使用说明
+    TOMCAT打开了MANAGER页面权限用户密码都是test,登录地址是 
+    http://ip:8081/manager/html
+    http://ip:8082/manager/html
+    
+    Haproxy配置是在对应目录下的conf，注意修改最后的几个服务器就可以了
+    状态查看URL是 http://ip:8123/status
+    
+    Graylog初始密码是admin/admin
+    登录地址是 http://ip:9000/status
+
+### 效果图
+    
+    
