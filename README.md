@@ -27,5 +27,8 @@
     登录地址是 http://ip:9000/status
 
 ### 效果图
+    ![image](https://raw.githubusercontent.com/cychan0115/nginx-haprxy-tomcat-redis-mysql-graylog/master/img/0.png)
+    ![image](https://raw.githubusercontent.com/cychan0115/nginx-haprxy-tomcat-redis-mysql-graylog/master/img/a.png)
+    ![image](https://raw.githubusercontent.com/cychan0115/nginx-haprxy-tomcat-redis-mysql-graylog/master/img/c.png)
     
     
